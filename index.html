@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Link Encurtado
+    </title>
+    <!-- Page Icon -->
+    <link 
+        rel="shortcut icon" 
+        type="image/x-icon" 
+        href="https://docs.google.com/uc?id=1GZ0tE-kecEiM-xiWxtHHCoT2YVkD0AUh"
+    />
+    <!-- CSS Files-->
+    <link 
+        rel="stylesheet"
+        href="./css/reset.css"
+    />
+    <link 
+        rel="stylesheet"
+        href="./css/style.css"
+    />
+    <link 
+        rel="stylesheet"
+        href="./css/responsive.css"
+    />
+    <!-- Fonts-->
+    <link 
+        rel="preconnect" href="https://fonts.googleapis.com"
+    />
+    <link 
+        rel="preconnect" href="https://fonts.gstatic.com" crossorigin
+    />
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="box">
+        <img 
+            class="logo"
+            width="10%"
+            src="https://docs.google.com/uc?id=1GZ0tE-kecEiM-xiWxtHHCoT2YVkD0AUh"
+            alt="Logo do Projeto Link_Encurtado"
+        />
+        <h2 class="title" style="text-align: center;">
+            Link_Encurtado
+            <p class="subtitle" style="font-style: italic;">
+                Diminua o seu link para compartilhar nas redes sociais
+            </p>
+        </h2>
+        <div class="box-input">
+            <input 
+                class="input-url"
+                id="input-url"
+                type="text"
+                placeholder="Insira o LINK que deseja encurtar..."
+            />
+            <button 
+                class="btn"
+                onclick="encurtarLink()">
+                    Encurtar Link
+            </button>
+            <button 
+                class="btn"
+                onclick="copiarLink()">
+                    Copiar Link Encurtado
+            </button>
+            </input>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+</html>

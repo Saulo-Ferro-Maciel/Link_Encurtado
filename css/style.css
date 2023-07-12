@@ -1,0 +1,61 @@
+body{
+    font-family: 'Raleway';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    margin-top: -120px;
+}
+
+.title{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    font-size: 20px;
+    opacity: 0.45;
+    margin-top: -5px;
+}
+
+.box-input{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-url {
+    padding: 13px 27px;
+    text-align: center;
+    outline: transparent;
+    width: 40%;
+    border-radius: 50px;
+    font-size: 20px;
+    color: cornflowerblue;
+    opacity: 0.7;
+}
+
+.btn{
+    padding: 15px 20px;
+    width: 18% 10%;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: rgb(133, 211, 174);
+    font-size: 20px;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    opacity: 0.4;
+}
