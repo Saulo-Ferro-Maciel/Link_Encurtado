@@ -8,15 +8,6 @@ body{
     height: 100vh;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f0f0f0;
-  padding: 20px;
-}
-
 .box{
     display: flex;
     align-items: center;
