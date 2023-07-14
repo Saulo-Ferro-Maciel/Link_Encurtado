@@ -3,16 +3,10 @@ function encurtarLink(){
     if(!url){
         alert("Por favor, coloque um link válido!");
         return;
-    }
-    else if(url.search('rebrand.ly') !== -1){
+    }else if(url.search('rebrand.ly') !== -1 || url.search('https') !== -1){
         alert("Por favor, coloque um link válido!");
         return;
-    }
-    else if(url.search('https') !== -1){
-        alert("Por favor, coloque um link válido!");
-        return;
-    }
-    else{
+    }else{
         let header = {
             "Content-Type": "application/json",
             "apiKey": "63ad6f1c36d34ac98fdb03c5f96e7ba1"
@@ -44,7 +38,7 @@ function copiarLink() {
     if(!url){
         alert("Por favor, coloque um link válido!");
         return;
-    } else if(url.search('rebrand.ly') !== -1){
+    } else if(url.search('rebrand.ly') !== -1 || url.search('undefined') !== -1){
         alert("Coloque um link válido ou aperte o botão de encurtar link.");
         return;
     } else{
