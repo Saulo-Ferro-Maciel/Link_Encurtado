@@ -46,15 +46,6 @@ body{
     opacity: 0.7;
 }
 
-.flooter {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f0f0f0;
-  padding: 20px;
-}
-
 .btn{
     padding: 15px 20px;
     width: 18% 10%;
