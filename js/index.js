@@ -8,6 +8,10 @@ function encurtarLink(){
         alert("Por favor, coloque um link válido!");
         return;
     }
+    else if(url.search('https') !== -1){
+        alert("Por favor, coloque um link válido!");
+        return;
+    }
     else{
         let header = {
             "Content-Type": "application/json",
@@ -39,6 +43,9 @@ function copiarLink() {
 
     if(!url){
         alert("Por favor, coloque um link válido!");
+        return;
+    } else if(url.search('rebrand.ly') !== -1){
+        alert("Coloque um link válido ou aperte o botão de encurtar link.");
         return;
     } else{
         inputUrl.select();
