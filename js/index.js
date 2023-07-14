@@ -38,7 +38,7 @@ function copiarLink() {
     if(!url){
         alert("Por favor, coloque um link válido!");
         return;
-    } else if(url.search('rebrand.ly') !== -1 || url.search('undefined') != -1){
+    } else if(url.search('rebrand.ly') === -1 || url.search('undefined') != -1){
         alert("Coloque um link válido ou aperte o botão de encurtar link.");
         return;
     } else{
